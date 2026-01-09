@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mais um ano de vida</title>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@300;400;500&display=swap"
+        rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            color: #fff;
+            background: linear-gradient(180deg, #110f2b, #291e94, #15203e);
+            overflow-x: hidden;
+        }
+
+        section {
+            max-width: 1000px;
+            margin: auto;
+            padding: 80px 20px;
+            text-align: center;
+        }
+
+        h1,
+        h2 {
+            font-family: 'Playfair Display', serif;
+        }
+
+        h1 {
+            font-size: clamp(2.2rem, 7vw, 4rem);
+            margin-bottom: 20px;
+            line-height: 1.2;
+        }
+
+        h2 {
+            font-size: clamp(1.8rem, 6vw, 2.2rem);
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.05rem;
+            max-width: 750px;
+            margin: auto;
+            line-height: 1.8;
+            opacity: 0.95;
+        }
+
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .date {
+            margin-top: 14px;
+            opacity: 0.8;
+            font-size: 0.95rem;
+        }
+
+        /* 💕 INDICADOR DE SCROLL (mobile friendly) */
+        .scroll-hint {
+            margin-top: 45px;
+            font-size: 0.95rem;
+            opacity: 0.85;
+            animation: float 2.2s ease-in-out infinite;
+        }
+
+        .scroll-hint span {
+            display: block;
+            font-size: 1.5rem;
+            margin-top: 6px;
+        }
+
+        @keyframes float {
+            0% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(10px);
+            }
+
+            100% {
+                transform: translateY(0);
+            }
+        }
+
+        .gallery img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            border-radius: 16px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+            transition: transform 0.3s ease;
+}
+
+
+        .images {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.images img {
+    width: 280px;      /* controla o tamanho aqui */
+    max-width: 100%;
+    height: auto;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+}
+
+
+        .gallery img:active {
+            transform: scale(0.98);
+        }
+
+        .fade {
+            opacity: 0;
+            transform: translateY(24px);
+            transition: all 0.9s ease;
+        }
+
+        .fade.show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        footer {
+            padding: 70px 20px;
+            text-align: center;
+            font-size: 1.05rem;
+            opacity: 0.9;
+        }
+
+        /* 📱 AJUSTES FINOS PARA TELAS MUITO PEQUENAS */
+        @media (max-width: 380px) {
+            p {
+                font-size: 1rem;
+            }
+
+            .gallery img {
+                height: 200px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="hero fade">
+        <div>
+            <h1>💕 FELIZ MAIS UM ANO AMOR! 💕<br>Mais um ano de vida da garota mais especial!<br>Eu te amo muito.</h1>
+            <div class="date">12/01/2026 — 17 anos da minha princesa</div>
+
+            <div class="scroll-hint">
+                Desliza com carinho
+                <span>↓</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="fade">
+        <h2>Isso é pra você</h2>
+        <p>
+            Esse site é um pedaço do que sinto por você.<br><br>
+            É sobre como tudo ficou mais bonito,
+            mais leve e mais verdadeiro
+            desde que você chegou.
+        </p>
+    </section>
+
+    <section class="fade">
+    <h2>Sua foto que eu me derreto toda vez que eu vejo</h2>
+    <box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+    <div class="images">
+        <img src="images/foto1.jpg">
+    </div>
+</section>
+
+    <section id="carta" class="fade">
+        <h2>Meu bem,</h2>
+        <p>
+            Escrevo isso para tentar colocar em palavras o que às vezes
+            meu silêncio ou meu sorriso bobo não conseguem explicar.
+            Eu te amo de uma forma que me preenche, e todos os dias eu
+            fecho os olhos e agradeço a Deus por Ele ter cruzado
+            nossos caminhos. Ter você na minha vida é a maior
+            prova de que Ele cuida de mim.<br><br>
+
+            Existem detalhes em você que me encantam de um jeito único.
+            Eu me perco nas curvas do seu cabelo, que parecem ter o movimento
+            perfeito, e nada no mundo ganha do seu sorriso, sem dúvida,
+            é o meu lugar favorito no mundo e a luz que ilumina qualquer
+            dia escuro meu.<br><br>
+
+            Quero te agradecer por estar comigo em cada segundo. Obrigado
+            por segurar minha mão nos meus piores dias, quando nem eu mesmo
+            me aguentava, e por vibrar comigo nos meus melhores momentos.
+            Sua presença é o que me dá equilíbrio.<br><br>
+
+            Eu nunca vou me esquecer do dia em que você disse que tinha
+            começado a gostar de mim. Aquilo mudou tudo. Foi como se uma
+            chave virasse na minha cabeça e o mundo ganhasse cores que eu
+            nem sabia que existiam. Meu dia, minha vida e meus planos que
+            eu já tinha feito, se concretizaram de vez.<br><br>
+
+            Desde aquele momento, e agora com mais certeza, eu prometo que
+            irei me esforçar todos os dias para que você se sinta a mulher mais
+            segura e feliz do mundo ao meu lado. Eu quero estar com você em cada
+            fase, em cada desafio e em cada conquista. Até porque, eu só quero que
+            seja você. Sempre você.<br><br>
+
+            <strong>EU TE AMO MARIANA!</strong>
+        </p>
+    </section>
+
+    <footer class="fade">
+        Pra Sempre você.<br><br>
+        Com amor,<br>
+        <strong>Caio</strong> 💖
+    </footer>
+
+    <script>
+        const elements = document.querySelectorAll('.fade');
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('show');
+                }
+            });
+        }, { threshold: 0.2 });
+
+        elements.forEach(el => observer.observe(el));
+    </script>
+
+</body>
+
+</html>
